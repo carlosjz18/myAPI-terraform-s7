@@ -8,9 +8,9 @@ resource "docker_image" "jenkins_docker" {
   }
 }
 
-# resource docker_volume "jenkins_volume" {
-#   name = "jenkins_home"
-# }
+resource "docker_volume" "jenkins_volume" {
+  name = "jenkins_home"
+}
 
 resource "docker_container" "jenkins" {
   name       = "jenkins"
@@ -30,7 +30,7 @@ resource "docker_container" "jenkins" {
   }
   volumes {
     volume_name    = "jenkins_home"
-    host_path      = "/c/Users/emile/Documents/jenkins_home"
+    host_path      = "C:/Users/carlos.jaimez/jenkins_home"
     container_path = "/var/jenkins_home"
     read_only      = false
   }
