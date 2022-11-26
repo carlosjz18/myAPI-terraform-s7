@@ -18,3 +18,4 @@ resource "docker_container" "sonarqube" {
   ]
 }
 
+output "sonarqube_ip" { value = "SONARQUBE_IP=${docker_container.sonarqube.ip_address}" }
