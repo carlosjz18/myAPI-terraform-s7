@@ -41,6 +41,14 @@ BEDU: Developer Engineering
 * Módulo #1: Desarrollo de software ágil
 * Tema #6: Jenkins como herramienta básica
 
+## Evidencias 🗂️
+
+![sonarqube-server](./images/sonarqube-server.png)
+![report-sonar](./images/report-sonar.png)
+![build-success-pet-clinic](./images/build-success-pet-clinic.png)
+![output-console-pet-clinic](./images/output-console-pet-clinic.png)
+![jenkins-dashboard](./images/jenkins-dashboard.png)
+
 ## Comandos
 
 Consultar el archivo "comandos terraform.txt" para ver las lista que comando utilizados.
