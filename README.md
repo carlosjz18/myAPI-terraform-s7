@@ -58,6 +58,21 @@ output-console-pet-clinic
 jenkins-dashboard
 ![jenkins-dashboard](./images/jenkins-dashboard.png)
 
+jenkins-repo-with-credentials
+![repo-with-credentials](./images/repo-with-credentials.png)
+
+execute-pipeline-automatic-with-cron
+![execute-pipeline-automatic-with-cron](./images/execute-pipeline-automatic-with-cron.png)
+
+owasp
+![owasp-output](./images/owasp1.png)  
+
+![owasp-report](./images/owasp2.png)  
+
+![owasp3-github-pomxml](./images/owasp3-github-pomxml.png)  
+
+![owasp4-github-jenkinsfile](./images/owasp4-github-jenkinsfile.png)  
+
 ## Comandos
 
 Consultar el archivo "comandos terraform.txt" para ver las lista que comando utilizados.
